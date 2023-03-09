@@ -8,15 +8,17 @@ $$A^{T}A\hat{x} = A^{T}b$$
 ## Eigendecomposition & Matrix Power
 
 For $A [n\times n]$:
-$$A = QDQ^{-1}$$
+$$A = PDP^{-1}$$
 
-$$A^m = QD^mQ^{-1}$$
+$$A^m = PD^mP^{-1}$$
 
 where 
 
-$$Q = \left\lbrack \matrix{| & & | \cr v_1 & \ldots & v_n \cr | & & |} \right\rbrack$$
+$$P = \left\lbrack \matrix{| & & | \cr v_1 & \ldots & v_n \cr | & & |} \right\rbrack$$
 
 
 and 
 
-$$Q = \left\lbrack \matrix{\lambda_1 & 0 & \ldots & 0 \cr 0 & \lambda_2 & & 0 \cr \vdots & \vdots & \ddots & \vdots \cr 0 & 0 & \ldots & \lambda_n} \right\rbrack$$
+$$D = \left\lbrack \matrix{\lambda_1 & 0 & \ldots & 0 \cr 0 & \lambda_2 & & 0 \cr \vdots & \vdots & \ddots & \vdots \cr 0 & 0 & \ldots & \lambda_n} \right\rbrack$$
+
+If $A$ is symmetric ($A^{T} = A$), then $A$ has orthonormal eigenvector columns in $P$. 
