@@ -16,8 +16,7 @@ where
 
 $$Q = \left\lbrack \matrix{| & & | \cr v_1 & \ldots & v_n \cr | & & |} \right\rbrack$$
 
-$$Q = \begin{bmatrix} | & & | \\ v_{1} & \ldots & v_n \\ | & & | \end{bmatrix}$$ 
 
 and 
 
-$$D =\begin{bmatrix}\lambda_1&0&\ldots&0 \\ 0&\lambda_2&&0\\ \vdots&\vdots&\ddots&\vdots\\ 0&0&\ldots&\lambda_n\end{bmatrix}$$
+$$Q = \left\lbrack \matrix{\lambda_1 & 0 & \ldots & 0 \cr 0 & \lambda_2 & & 0 \cr \vdots & \vdots & \ddots & \vdots \cr 0 & 0 & \ldots & \lambda_n} \right\rbrack$$
