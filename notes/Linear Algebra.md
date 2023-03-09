@@ -14,7 +14,7 @@ $$A^m = QD^mQ^{-1}$$
 
 where 
 
-$$Q = \matrix{| & & | \cr v_1 & \ldots & v_n \cr | & & |}$$
+$$Q = \left\lbrack \matrix{| & & | \cr v_1 & \ldots & v_n \cr | & & |} \right\rbrack$$
 
 $$Q = \begin{bmatrix} | & & | \\ v_{1} & \ldots & v_n \\ | & & | \end{bmatrix}$$ 
 
