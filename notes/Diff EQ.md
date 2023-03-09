@@ -11,22 +11,19 @@ $$y(t) = \frac{1}{\mu(t)} \int \mu(t) \cdot b(t)dt + C$$
 
 where $$\mu(t) = e^{\int g(t)dt}$$
 
----
 
 ##  Laplace Transform
 
 $$\mathcal{L}(y') = s\mathcal{L}(y) - y(0)$$
 $$\mathcal{L}(y'') = s^{2} \mathcal{L}(y) - sy(0) - y'(0)$$
 
----
 
 ##  General Solution
 
 Finding general solution:
 
 1. Find $y_h$, keep constants
-2. Find $y_p$
-   - Guesses may be affected by $y_h$
+2. Find $y_p$ (Guesses may be affected by $y_h$)
 3. $y = y_p + y_h$ ($y_h$ still contains constants)
 4. Check with initial conditions
    
