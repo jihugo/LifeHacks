@@ -4,7 +4,6 @@
 ---
 
 -   Sweet Bloom
-    -   La Danta
     -   Nyungwe
 
 -   Huck
