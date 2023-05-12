@@ -8,4 +8,5 @@ def parse_requirements(filename):
     return [line for line in lineiter if line and not line.startswith("#")]
 
 
-setup(name="mytools", version="1.0", packages=parse_requirements("requirements.txt"))
+# setup(name="mytools", version="1.0", packages=parse_requirements("requirements.txt"))
+setup(name="mytools", version="1.0.0")
