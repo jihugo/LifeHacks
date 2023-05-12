@@ -1,5 +1,7 @@
 """Visuals for binary operations"""
 # pylint:disable=invalid-name
+__all__ = ["float_to_bin", "add"]
+
 import math
 import re
 

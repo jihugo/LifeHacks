@@ -1,4 +1,5 @@
 """Tools to de-index arrays"""
+__all__ = ["raster_select"]
 
 import numpy as np
 
@@ -54,3 +55,26 @@ def raster_select(
         result /= np.linalg.norm(result)
 
     return result
+
+
+def raster_bin_sum(array: np.ndarray, center: float, width: float) -> float:
+    """Get the sum of the bin on an array
+
+    Parameters
+    ----------
+    array : NumPy 1D array
+
+    center : float
+        Center of desired bin, unit = index
+
+    width : float
+        Width of desired bin, unit = index
+    """
+    return np.sum(
+        np.multiply(
+            array,
+            raster_select(
+                length=len(array), center=center, width=width, normalize=None
+            ),
+        )
+    )
