@@ -1,5 +1,5 @@
 """Tools to de-index arrays"""
-__all__ = ["raster_select"]
+__all__ = ["raster_select", "raster_bin_sum"]
 
 import numpy as np
 
