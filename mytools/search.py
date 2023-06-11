@@ -5,6 +5,8 @@ from typing import Iterable, Optional
 
 from jellyfish import jaro_winkler_similarity  # pylint: disable=E0611:no-name-in-module
 
+__all__ = ["search", "search_jaro_wink"]
+
 
 def search(keyword: str, candidate: str, exclude: str | Optional[Iterable[str]] = None):
     """Determine if candidate is valid search result
@@ -55,8 +57,8 @@ def search_jaro_wink(
         True if the keyword (or its variant) is found in candidate
     """
 
-    keywords = re.split(r" ", keyword)
-    candidates = re.findall(r"[/w']+|[.,!?;]", candidate)  # strip punctuations
+    keywords = re.findall(r"[\w']+|[.,!?;]", keyword)
+    candidates = re.findall(r"[\w']+|[.,!?;]", candidate)  # strip punctuations
 
     for keyword in keywords:
         for candidate_word in candidates:
