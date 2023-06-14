@@ -5,6 +5,7 @@
 
 -   Sweet Bloom
     -   Nyungwe
+    -   Namballe (warm brew, no ice)
 
 -   Huck
     -   Ethiopia Aramo
