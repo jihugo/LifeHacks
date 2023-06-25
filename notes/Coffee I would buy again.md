@@ -5,7 +5,7 @@
 
 -   Sweet Bloom
     -   Nyungwe
-    -   Namballe (warm brew, no ice)
+    -   Namballe (85 brew, no ice)
     -   Duromina
 
 -   Huck
